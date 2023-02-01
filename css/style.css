@@ -8,11 +8,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: lightgray;
 }
 
 header {
     margin: 20px 0;
-    background-color: lightgray;
+    
     width: 100%;
     text-align: center;
     display: flex;
@@ -31,4 +32,56 @@ figure {
     height: 700px;
     justify-content: space-around;
     align-items: center;
+    width: 90%;
+    background-color: white;
+}
+
+#image{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    /* align-items: center; */
+
+    width: 70%;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding: 1rem;
+
+    font-size: 1.4rem;
+}
+
+.speach{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: left;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+#tribute-link{
+    padding: 1rem;
+}
+
+#tribute-link a{
+    color: #001277;
 }
